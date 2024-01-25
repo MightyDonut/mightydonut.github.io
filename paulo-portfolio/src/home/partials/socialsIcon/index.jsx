@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-const SocialsIcon = ({ style, color, icon, href }) => {
+const SocialsIcon = ({ style, icon, href }) => {
 
   const handleClick = () => {
     window.open(href, "_blank", "noreferrer");
@@ -11,7 +11,7 @@ const SocialsIcon = ({ style, color, icon, href }) => {
 
   return (
     <Container onClick={handleClick}>
-      <FontAwesomeIcon style={style} icon={icon} color={color} />
+      <FontAwesomeIcon color='#342620' style={style} icon={icon} />
     </Container>
   )
 }
