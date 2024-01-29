@@ -2,10 +2,10 @@ import styled from "styled-components"
 
 
 
-const TechIcon = ({ alt, src }) => {
+const TechIcon = ({ alt, src, onClick }) => {
 
   return (
-    <Container>
+    <Container onClick={onClick}>
       <Hexagon><RoundedSquare /><RoundedSquare /><RoundedSquare /></Hexagon>
       <img src={src} alt={alt} />
     </Container>
@@ -20,6 +20,7 @@ export default TechIcon;
 const Container = styled.div`
   height: 118px;
   width: 118px;
+  cursor: pointer;
 
   display: flex;
   justify-content: center;

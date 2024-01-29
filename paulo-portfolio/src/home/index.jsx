@@ -4,13 +4,7 @@ import styled from 'styled-components';
 import { faLinkedinIn, faFacebookF, faInstagram, faGooglePlay } from '@fortawesome/free-brands-svg-icons';
 
 import SocialsIcon from './partials/SocialsIcon';
-import TechIcon from './partials/TechIcon';
-
-import Unreal from '../images/unreal.png';
-import Unity from '../images/unity.png';
-import Photoshop from '../images/photoshop.png';
-import HTML5 from '../images/html5.png';
-import Illustrator from '../images/illustrator.png';
+import TechContainer from './partials/TechContainer';
 
 
 const Home = () => {
@@ -28,16 +22,7 @@ const Home = () => {
       <Subtitle>Game Designer</Subtitle>
       <ViewButton>View my portfolio</ViewButton>
 
-      <SkillsExperience>Skills & Experience</SkillsExperience>
-      <SkillsExpSubtitle>Paulo Durbeck</SkillsExpSubtitle>
-
-      <TechContainer>
-        <TechIcon src={Unreal} alt="Unreal" />
-        <TechIcon src={Unity} alt="Unity" />
-        <TechIcon src={Photoshop} alt="Photoshop" />
-        <TechIcon src={HTML5} alt="HTML5" />
-        <TechIcon src={Illustrator} alt="Illustrator" />
-      </TechContainer>
+      <TechContainer />
     </Container>
   )
 }
@@ -85,27 +70,7 @@ const ViewButton = styled.button`
   font-size: 1.6rem;
   color: white;
   padding: 8px;
+
+  margin-bottom: 300px;
 `
 
-const SkillsExperience = styled.h2`
-  color: white;
-  font-family: 'Raleway';
-  text-transform: uppercase;
-  font-size: 2.5rem;
-  margin-top: 300px;
-`
-
-const SkillsExpSubtitle = styled.h3`
-
-`
-
-const TechContainer = styled.div`
-  max-width: 35vw;
-  flex-wrap: wrap;
-
-  margin: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 50px;
-`
