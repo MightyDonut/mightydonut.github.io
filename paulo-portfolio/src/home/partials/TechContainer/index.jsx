@@ -7,6 +7,7 @@ import Unity from '../../../images/unity.png';
 import Photoshop from '../../../images/photoshop.png';
 import HTML5 from '../../../images/html5.png';
 import Illustrator from '../../../images/illustrator.png';
+import CardBg from '../../../images/cardbg.png'
 import styled from "styled-components";
 
 
@@ -25,6 +26,42 @@ const infos = {
   },
   "Unity": {
     image: Unity,
+    content:
+      <>
+        <li>Environment</li>
+        <li>Blueprints</li>
+        <li>Full Game Development</li>
+        <li>C++</li>
+        <li>Light</li>
+        <li>RealTime Render</li>
+      </>
+  },
+  "Photoshop": {
+    image: Photoshop,
+    content:
+      <>
+        <li>Environment</li>
+        <li>Blueprints</li>
+        <li>Full Game Development</li>
+        <li>C++</li>
+        <li>Light</li>
+        <li>RealTime Render</li>
+      </>
+  },
+  "HTML5": {
+    image: HTML5,
+    content:
+      <>
+        <li>Environment</li>
+        <li>Blueprints</li>
+        <li>Full Game Development</li>
+        <li>C++</li>
+        <li>Light</li>
+        <li>RealTime Render</li>
+      </>
+  },
+  "Illustrator": {
+    image: Illustrator,
     content:
       <>
         <li>Environment</li>
@@ -61,9 +98,15 @@ const TechContainer = () => {
         </Buttons>
         <CardContainer onClick={() =>
           setView(null)
-        }>
+        } >
+          <ClickBG onClick={() =>
+            setView(null)
+          } />
           <Card onClick={(e) => e.stopPropagation()}>
-            {view?.content || null}
+            <img src={view?.image || ""} alt={view || ""} />
+            <ul>
+              {view?.content || null}
+            </ul>
           </Card>
         </CardContainer>
       </Slider>
@@ -76,7 +119,6 @@ export default TechContainer;
 const Container = styled.div`
   overflow-x: hidden;
 `
-
 
 const SkillsExperience = styled.h2`
   color: white;
@@ -101,7 +143,7 @@ const Slider = styled.div`
   position: absolute;
   width: 200vw;
   display: flex;
-  left: ${({ $isviewing }) => $isviewing ? '-100vw' : '0vw'};
+  left: ${({ $isviewing }) => $isviewing ? '-101vw' : '-1vw'};
 
   transition: left 0.5s ease-in-out;
 
@@ -124,7 +166,7 @@ const Buttons = styled.div`
 `
 
 const HexagonContainer = styled.div`
-  max-width: 35vw;
+  max-width: 32vw;
   flex-wrap: wrap;
 
   display: flex;
@@ -140,9 +182,45 @@ const CardContainer = styled.div`
  align-items: center;
 `
 
+const ClickBG = styled.div`
+  position: absolute;
+  z-index: 0;
+  height: 100vh;
+  width: 100vw;
+  cursor: pointer;
+`
+
 const Card = styled.div`
+  z-index: 1;
   width: 95%;
   max-width: 780px;
-  height: 95%;
-  background-color: white;
-` 
+  height: 100%;
+  max-height: 406px;
+  background-color: #F5F3EF;
+  display: flex;
+  align-items: center;
+  background: url(${CardBg});
+  background-size: cover;
+  
+  > img {
+    height: 200px;
+    filter: invert(1);
+    margin-left: 3%;
+  }
+
+  > ul {
+    font-size: 1.7rem;
+    font-family: 'Raleway';
+    font-weight: 750;
+    text-align: left;
+    letter-spacing: 0.2rem;
+    margin-left: 12%;
+
+    > li::marker {
+      content: "//";
+      font-weight: 800;
+      color: #00A2E9;
+    }
+
+  }
+`

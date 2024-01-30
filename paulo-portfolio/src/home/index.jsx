@@ -30,8 +30,7 @@ const Home = () => {
 export default Home;
 
 const Container = styled.div`
-  height: 200vh;
-  background-color: #001B28;
+  height: auto;
   overflow-x: hidden;
 `
 
