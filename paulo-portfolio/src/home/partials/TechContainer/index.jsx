@@ -86,8 +86,8 @@ const TechContainer = () => {
     <Container>
       <Slider $isviewing={view !== null}>
         <Buttons>
-          <SkillsExperience>Skills & Experience</SkillsExperience>
-          <SkillsExpSubtitle>Paulo Durbeck</SkillsExpSubtitle>
+          <Title>Skills & Experience</Title>
+          <Subtitle>Paulo Durbeck</Subtitle>
           <HexagonContainer>
             <TechIcon onClick={() => handleClick("Unreal")} src={Unreal} alt="Unreal" />
             <TechIcon onClick={() => handleClick("Unity")} src={Unity} alt="Unity" />
@@ -118,9 +118,10 @@ export default TechContainer;
 
 const Container = styled.div`
   overflow-x: hidden;
+  height: 700px;
 `
 
-const SkillsExperience = styled.h2`
+const Title = styled.h2`
   color: white;
   font-family: 'Raleway';
   text-transform: uppercase;
@@ -129,7 +130,7 @@ const SkillsExperience = styled.h2`
   margin-bottom: 0px;
 `
 
-const SkillsExpSubtitle = styled.h3`
+const Subtitle = styled.h3`
   color: #047BB0;
   font-family: 'Raleway';
   font-size: 1rem;

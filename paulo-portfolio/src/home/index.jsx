@@ -5,9 +5,12 @@ import { faLinkedinIn, faFacebookF, faInstagram, faGooglePlay } from '@fortaweso
 
 import SocialsIcon from './partials/SocialsIcon';
 import TechContainer from './partials/TechContainer';
-
+import Portfolio from './partials/Portfolio';
+import ContactForm from './partials/ContactForm';
 
 const Home = () => {
+  const portfolioRef = React.useRef(null);
+
   return (
     <Container>
       {/* TODO: put video in background */}
@@ -20,9 +23,14 @@ const Home = () => {
 
       <NameTitle>Paulo Durbeck</NameTitle>
       <Subtitle>Game Designer</Subtitle>
-      <ViewButton>View my portfolio</ViewButton>
+      <ViewButton onClick={() => portfolioRef.current?.scrollIntoView({ behavior: 'smooth' })}>View my portfolio</ViewButton>
 
       <TechContainer />
+
+      <Portfolio ref={portfolioRef} />
+
+      <ContactForm />
+
     </Container>
   )
 }
@@ -32,6 +40,10 @@ export default Home;
 const Container = styled.div`
   height: auto;
   overflow-x: hidden;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 `
 
 const SocialsContainer = styled.div`
@@ -69,6 +81,8 @@ const ViewButton = styled.button`
   font-size: 1.6rem;
   color: white;
   padding: 8px;
+  cursor: pointer;
+  max-width: 400px;
 
   margin-bottom: 300px;
 `
