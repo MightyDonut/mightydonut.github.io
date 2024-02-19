@@ -3,10 +3,14 @@ import { useState } from "react"
 import TechIcon from '../TechIcon';
 
 import Unreal from '../../../images/unreal.png';
+import UnrealS from '../../../images/unrealsmall.png';
 import Unity from '../../../images/unity.png';
+import UnityS from '../../../images/unitysmall.png';
 import Photoshop from '../../../images/photoshop.png';
-import HTML5 from '../../../images/html5.png';
-import Illustrator from '../../../images/illustrator.png';
+import Excel from  '../../../images/excel.png';
+import Xd from '../../../images/xd.png';
+import Premiere from '../../../images/premiere.png';
+import Audition from '../../../images/audition.png';
 import CardBg from '../../../images/cardbg.png'
 import styled from "styled-components";
 
@@ -28,19 +32,18 @@ const infos = {
     image: Unity,
     content:
       <>
-        <li>Environment</li>
-        <li>Blueprints</li>
-        <li>Full Game Development</li>
-        <li>C++</li>
-        <li>Light</li>
-        <li>RealTime Render</li>
+        <li>Unity things</li>
+        <li>Changing prices</li>
+        <li>Revoking licenses</li>
+        <li>C#</li>
+        <li>what</li>
       </>
   },
   "Photoshop": {
     image: Photoshop,
     content:
       <>
-        <li>Environment</li>
+        <li>Memery</li>
         <li>Blueprints</li>
         <li>Full Game Development</li>
         <li>C++</li>
@@ -48,8 +51,20 @@ const infos = {
         <li>RealTime Render</li>
       </>
   },
-  "HTML5": {
-    image: HTML5,
+  "Excel": {
+    image: Excel,
+    content:
+      <>
+        <li>Memery</li>
+        <li>Blueprints</li>
+        <li>Full Game Development</li>
+        <li>C++</li>
+        <li>Light</li>
+        <li>RealTime Render</li>
+      </>
+  },
+  "Xd": {
+    image: Xd,
     content:
       <>
         <li>Environment</li>
@@ -60,8 +75,8 @@ const infos = {
         <li>RealTime Render</li>
       </>
   },
-  "Illustrator": {
-    image: Illustrator,
+  "Premiere": {
+    image: Premiere,
     content:
       <>
         <li>Environment</li>
@@ -71,7 +86,19 @@ const infos = {
         <li>Light</li>
         <li>RealTime Render</li>
       </>
-  }
+  },
+  "Audition": {
+    image: Audition,
+    content:
+      <>
+        <li>Environment</li>
+        <li>Blueprints</li>
+        <li>Full Game Development</li>
+        <li>C++</li>
+        <li>Light</li>
+        <li>RealTime Render</li>
+      </>
+  },
 }
 
 const TechContainer = () => {
@@ -85,15 +112,17 @@ const TechContainer = () => {
   return (
     <Container>
       <Slider $isviewing={view !== null}>
-        <Buttons>
+        <Buttons>-
           <Title>Skills & Experience</Title>
           <Subtitle>Paulo Durbeck</Subtitle>
           <HexagonContainer>
-            <TechIcon onClick={() => handleClick("Unreal")} src={Unreal} alt="Unreal" />
-            <TechIcon onClick={() => handleClick("Unity")} src={Unity} alt="Unity" />
+            <TechIcon onClick={() => handleClick("Unreal")} src={UnrealS} alt="Unreal" />
+            <TechIcon onClick={() => handleClick("Unity")} src={UnityS} alt="Unity" />
             <TechIcon onClick={() => handleClick("Photoshop")} src={Photoshop} alt="Photoshop" />
-            <TechIcon onClick={() => handleClick("HTML5")} src={HTML5} alt="HTML5" />
-            <TechIcon onClick={() => handleClick("Illustrator")} src={Illustrator} alt="Illustrator" />
+            <TechIcon onClick={() => handleClick("Excel")} src={Excel} alt="Excel" />
+            <TechIcon onClick={() => handleClick("Xd")} src={Xd} alt="xd" />
+            <TechIcon onClick={() => handleClick("Premiere")} src={Premiere} alt="premiere" />
+            <TechIcon onClick={() => handleClick("Audition")} src={Audition} alt="audition" />
           </HexagonContainer>
         </Buttons>
         <CardContainer onClick={() =>
@@ -167,7 +196,7 @@ const Buttons = styled.div`
 `
 
 const HexagonContainer = styled.div`
-  max-width: 32vw;
+  max-width: 35vw;
   flex-wrap: wrap;
 
   display: flex;
@@ -205,7 +234,6 @@ const Card = styled.div`
   
   > img {
     height: 200px;
-    filter: invert(1);
     margin-left: 3%;
   }
 
