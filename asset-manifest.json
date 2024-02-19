@@ -1,20 +1,26 @@
 {
   "files": {
     "main.css": "/static/css/main.933a796a.css",
-    "main.js": "/static/js/main.9c3c15f2.js",
+    "main.js": "/static/js/main.59a5d95b.js",
     "static/js/787.6e1cd68c.chunk.js": "/static/js/787.6e1cd68c.chunk.js",
     "static/media/hopeless.png": "/static/media/hopeless.818b960ddbc7d9a08c33.png",
-    "static/media/unity.png": "/static/media/unity.c5fa072fbd1d1aa806d1.png",
-    "static/media/unreal.png": "/static/media/unreal.ef2639f7a0365ed94c5e.png",
+    "static/media/unity.png": "/static/media/unity.28438bcb2c4090d3eccb.png",
+    "static/media/pfp.png": "/static/media/pfp.20ac04bd6e2e1b6d4177.png",
+    "static/media/unreal.png": "/static/media/unreal.34eb275dceb6b5074e4f.png",
+    "static/media/excel.png": "/static/media/excel.1cd8509b23b63b2d06ca.png",
     "static/media/cardbg.png": "/static/media/cardbg.e4b6d04acdc319cccb40.png",
-    "static/media/photoshop.png": "/static/media/photoshop.fb57810fa781b0235955.png",
+    "static/media/unrealsmall.png": "/static/media/unrealsmall.a9c0a7f930d161874e57.png",
+    "static/media/xd.png": "/static/media/xd.494a703f586cfba53a87.png",
+    "static/media/photoshop.png": "/static/media/photoshop.0ac8590af7e57cda2f79.png",
+    "static/media/audition.png": "/static/media/audition.1a9b0860ef266d488729.png",
+    "static/media/premiere.png": "/static/media/premiere.5fdc7f4d0556424c0ac6.png",
     "index.html": "/index.html",
     "main.933a796a.css.map": "/static/css/main.933a796a.css.map",
-    "main.9c3c15f2.js.map": "/static/js/main.9c3c15f2.js.map",
+    "main.59a5d95b.js.map": "/static/js/main.59a5d95b.js.map",
     "787.6e1cd68c.chunk.js.map": "/static/js/787.6e1cd68c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.933a796a.css",
-    "static/js/main.9c3c15f2.js"
+    "static/js/main.59a5d95b.js"
   ]
 }
