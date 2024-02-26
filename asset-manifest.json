@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.933a796a.css",
-    "main.js": "/static/js/main.59a5d95b.js",
+    "main.js": "/static/js/main.92affa64.js",
     "static/js/787.6e1cd68c.chunk.js": "/static/js/787.6e1cd68c.chunk.js",
     "static/media/hopeless.png": "/static/media/hopeless.818b960ddbc7d9a08c33.png",
     "static/media/unity.png": "/static/media/unity.28438bcb2c4090d3eccb.png",
@@ -16,11 +16,11 @@
     "static/media/premiere.png": "/static/media/premiere.5fdc7f4d0556424c0ac6.png",
     "index.html": "/index.html",
     "main.933a796a.css.map": "/static/css/main.933a796a.css.map",
-    "main.59a5d95b.js.map": "/static/js/main.59a5d95b.js.map",
+    "main.92affa64.js.map": "/static/js/main.92affa64.js.map",
     "787.6e1cd68c.chunk.js.map": "/static/js/787.6e1cd68c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.933a796a.css",
-    "static/js/main.59a5d95b.js"
+    "static/js/main.92affa64.js"
   ]
 }
