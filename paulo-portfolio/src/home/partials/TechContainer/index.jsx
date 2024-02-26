@@ -14,8 +14,6 @@ import Audition from '../../../images/audition.png';
 import CardBg from '../../../images/cardbg.png'
 import styled from "styled-components";
 
-//testing to show joe how git works
-
 
 const infos = {
   "Unreal": {
