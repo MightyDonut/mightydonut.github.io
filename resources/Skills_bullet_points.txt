@@ -1,0 +1,75 @@
+Skills bullet points
+
+Unreal Engine
+3D Game Dev
+In engine blockouts (Grayboxing)
+Simple blueprints
+Particle System (Niagara)
+Level Design
+
+Maya
+3D Modeling
+Texturing
+UVs
+Low poly
+High poly
+Baking Mesh
+
+Blender
+3D Sculpting
+3D Modeling
+Texturing
+UVs
+Low poly
+High poly
+Baking Mesh
+
+Unity
+2D Game Dev
+3D Game Dev
+In engine blockouts
+Simple C#
+Level Design
+
+Photoshop
+Image edits and corrections
+Intermediate to Advanced Software knowledge
+
+Professional Meme dispenser
+
+Xd
+UX Design for great player experience
+UI Design implementation
+
+Audition
+Simple Audio Edits
+Sound creation from scratch
+Audio corrections
+
+Premiere
+Video assembly
+Experienced editing
+Image correction
+
+Excel
+Rational Game Design
+Dealing with Data and formatting
+Formulas and Functions
+
+Miro
+Team organization
+All sorts of flowcharting
+
+
+
+My Description
+
+My name is Paulo Durbeck, and I am currently a Junior game designer with a Bachelor's in Games and Multimedia. I'm currently (As of February 2024) working on improving my portfolio by developing prototypes with a small group of talanted individuals during our free time, while seeking for internship opportunities to further enhance my abilities and advance my personal career.
+
+I've had many connections with the world of games before, though from different areas.
+I've organized some small tournaments and events before, as well as commentate on various different tournaments for a couple of fighting games, with the organizers "SaltyEU".
+I have also worked with Nintendo of Portugal, both officially and unofficially in order to organize tournaments or other smaller events.
+In the topic of eSports, I have also previously managed a Tekken 7 Competitive team for about a year, being both the team manager as well as the trainer for the players.
+
+I possess skills in softwares such as Adobe Premiere, Audition, Xd, Photoshop, Maya, Blender, Unreal Engine 4/5, Unity, Excel, Miro and Trello as well as some other flowcharting tools.
+I've also created a fair ammount of Game design documents, and Rational Game Design Documents as well.

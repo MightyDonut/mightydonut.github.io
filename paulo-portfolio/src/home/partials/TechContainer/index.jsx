@@ -20,83 +20,65 @@ const infos = {
     image: Unreal,
     content:
       <>
-        <li>Environment</li>
-        <li>Blueprints</li>
-        <li>Full Game Development</li>
-        <li>C++</li>
-        <li>Light</li>
-        <li>RealTime Render</li>
+        <li>3D Game Dev</li>
+        <li>In engine blockouts (Grayboxing)</li>
+        <li>Simple blueprints</li>
+        <li>Particle System (Niagara)</li>
+        <li>Level Design</li>
       </>,
   },
   "Unity": {
     image: Unity,
     content:
       <>
-        <li>Unity things</li>
-        <li>Changing prices</li>
-        <li>Revoking licenses</li>
-        <li>C#</li>
-        <li>what</li>
+        <li>2D Game Dev</li>
+        <li>3D Game Dev</li>
+        <li>In engine blockouts</li>
+        <li>Simple C#</li>
+        <li>Level Design</li>
       </>
   },
   "Photoshop": {
     image: Photoshop,
     content:
       <>
-        <li>Memery</li>
-        <li>Blueprints</li>
-        <li>Full Game Development</li>
-        <li>C++</li>
-        <li>Light</li>
-        <li>RealTime Render</li>
+        <li>Image edits and corrections</li>
+        <li>Intermediate to Advanced Software knowledge</li>
       </>
   },
   "Excel": {
     image: Excel,
     content:
       <>
-        <li>Memery</li>
-        <li>Blueprints</li>
-        <li>Full Game Development</li>
-        <li>C++</li>
-        <li>Light</li>
-        <li>RealTime Render</li>
+        <li>Rational Game Design</li>
+        <li>Dealing with Data and formatting</li>
+        <li>Formulas and Functions</li>
       </>
   },
   "Xd": {
     image: Xd,
     content:
       <>
-        <li>Environment</li>
-        <li>Blueprints</li>
-        <li>Full Game Development</li>
-        <li>C++</li>
-        <li>Light</li>
-        <li>RealTime Render</li>
+        <li>UX Design for great player experience</li>
+        <li>UI Design implementation</li>
       </>
   },
   "Premiere": {
     image: Premiere,
     content:
       <>
-        <li>Environment</li>
-        <li>Blueprints</li>
-        <li>Full Game Development</li>
-        <li>C++</li>
-        <li>Light</li>
-        <li>RealTime Render</li>
+        <li>Video assembly</li>
+        <li>Experienced editing</li>
+        <li>Image correction</li>
       </>
   },
   "Audition": {
     image: Audition,
     content:
       <>
-        <li>Environment</li>
-        <li>Blueprints</li>
-        <li>Full Game Development</li>
-        <li>C++</li>
-        <li>Light</li>
-        <li>RealTime Render</li>
+        <li>Simple Audio Edits</li>
+        <li>Sound creation from scratch</li>
+        <li>Audio corrections</li>
       </>
   },
 }
