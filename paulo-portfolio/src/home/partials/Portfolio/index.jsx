@@ -2,6 +2,11 @@ import React from 'react';
 import styled from "styled-components";
 
 import Hopeless from '../../../images/hopeless.png';
+import Barthory from '../../../images/barthory_mansion.png';
+import HoldTheL from '../../../images/hold_the_l.jpg';
+import Nintendo from '../../../images/nintendo.png';
+import SaltyEU from '../../../images/saltyEU.png';
+import ftw from '../../../images/ftw.png';
 
 
 const Portfolio = React.forwardRef((_, ref) => (
@@ -10,11 +15,11 @@ const Portfolio = React.forwardRef((_, ref) => (
     <Subtitle>Paulo Durbeck</Subtitle>
     <Grid>
       <GridItem src={Hopeless} />
-      <GridItem src={Hopeless} />
-      <GridItem src={Hopeless} />
-      <GridItem src={Hopeless} />
-      <GridItem src={Hopeless} />
-      <GridItem src={Hopeless} />
+      <GridItem src={Barthory} />
+      <GridItem src={HoldTheL} />
+      <GridItem src={Nintendo} />
+      <GridItem src={SaltyEU} />
+      <GridItem src={ftw} />
     </Grid>
   </Container>
 ));
@@ -59,6 +64,7 @@ const Grid = styled.div`
 `
 
 const GridItem = styled.img`
+  height: 278px;
   width: 450px;
   cursor: pointer;
 `
