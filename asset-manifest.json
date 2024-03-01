@@ -1,26 +1,31 @@
 {
   "files": {
     "main.css": "/static/css/main.933a796a.css",
-    "main.js": "/static/js/main.92affa64.js",
+    "main.js": "/static/js/main.71c29054.js",
     "static/js/787.6e1cd68c.chunk.js": "/static/js/787.6e1cd68c.chunk.js",
     "static/media/hopeless.png": "/static/media/hopeless.818b960ddbc7d9a08c33.png",
+    "static/media/barthory_mansion.png": "/static/media/barthory_mansion.8061f3e6701bdf19c1d9.png",
     "static/media/unity.png": "/static/media/unity.28438bcb2c4090d3eccb.png",
     "static/media/pfp.png": "/static/media/pfp.20ac04bd6e2e1b6d4177.png",
+    "static/media/nintendo.png": "/static/media/nintendo.aebcd9cbcd24a444394d.png",
+    "static/media/hold_the_l.jpg": "/static/media/hold_the_l.f4be823dc0d01f7fb2db.jpg",
     "static/media/unreal.png": "/static/media/unreal.34eb275dceb6b5074e4f.png",
+    "static/media/ftw.png": "/static/media/ftw.978ba67163729ba8384d.png",
     "static/media/excel.png": "/static/media/excel.1cd8509b23b63b2d06ca.png",
     "static/media/cardbg.png": "/static/media/cardbg.e4b6d04acdc319cccb40.png",
     "static/media/unrealsmall.png": "/static/media/unrealsmall.a9c0a7f930d161874e57.png",
     "static/media/xd.png": "/static/media/xd.494a703f586cfba53a87.png",
     "static/media/photoshop.png": "/static/media/photoshop.0ac8590af7e57cda2f79.png",
+    "static/media/saltyEU.png": "/static/media/saltyEU.ccbf69c1686a178938f6.png",
     "static/media/audition.png": "/static/media/audition.1a9b0860ef266d488729.png",
     "static/media/premiere.png": "/static/media/premiere.5fdc7f4d0556424c0ac6.png",
     "index.html": "/index.html",
     "main.933a796a.css.map": "/static/css/main.933a796a.css.map",
-    "main.92affa64.js.map": "/static/js/main.92affa64.js.map",
+    "main.71c29054.js.map": "/static/js/main.71c29054.js.map",
     "787.6e1cd68c.chunk.js.map": "/static/js/787.6e1cd68c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.933a796a.css",
-    "static/js/main.92affa64.js"
+    "static/js/main.71c29054.js"
   ]
 }
