@@ -23,13 +23,13 @@ const Portfolio = React.forwardRef((_, ref) => (
       </PortfolioGridItem>
       <PortfolioGridItem src={Barthory}>
         <>
-        <a target="_blank" href={'https://fropplestudios.itch.io/barthory-mansion'} >Link to game</a>
+        <a target="_blank" rel="noreferrer" href={'https://fropplestudios.itch.io/barthory-mansion'} >Link to game</a>
         <p>Game designer for Fropple Studios Barthory Mansion horror game.</p>
         </>
       </PortfolioGridItem>
       <PortfolioGridItem src={HoldTheL}>
         <>
-        <a target="_blank" href={' https://www.facebook.com/events/611227272640737/'}>Link to event</a>
+        <a target="_blank" rel="noreferrer" href={' https://www.facebook.com/events/611227272640737/'}>Link to event</a>
         <p>Tournament Organizer for Tekken 7 Tournament "Hold the L"</p>
         </>
       </PortfolioGridItem>
@@ -37,11 +37,11 @@ const Portfolio = React.forwardRef((_, ref) => (
         <p>"Tournament Organizer for Nintendo official events"</p>
       </PortfolioGridItem>
       <PortfolioGridItem src={SaltyEU}>
-        <a target="_blank" href='https://www.youtube.com/@TeamSaltyEU'>Link to channel</a>
+        <a target="_blank" rel="noreferrer" href='https://www.youtube.com/@TeamSaltyEU'>Link to channel</a>
         <p>"Commentator for Salty EU tournaments and events in Tekken 7 and Dragonball FighterZ (2018-2019)"</p>
       </PortfolioGridItem>
       <PortfolioGridItem src={ftw}>
-        <a target="_blank" href='https://ftw.pt/index.php/news/ftw-abre-seccao-e-anuncia-equipa-de-tekken-7'>Link to page</a>
+        <a target="_blank" rel="noreferrer" href='https://ftw.pt/index.php/news/ftw-abre-seccao-e-anuncia-equipa-de-tekken-7'>Link to page</a>
         <p>"Team manager and trainer for Tekken 7, in For The Win eSports Team"</p>
       </PortfolioGridItem>
 </Grid> 

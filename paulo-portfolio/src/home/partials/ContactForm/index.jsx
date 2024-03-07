@@ -14,17 +14,19 @@ const ContactForm = () => {
       <FormContainer>
         <img src={pfp} alt="Paulo Ian Durbeck" />
         <Description>
-        My name is Paulo Durbeck, and I am currently a Junior game designer with a Bachelor's in Games and Multimedia. I'm currently (As of February 2024) working on improving my portfolio by developing prototypes with a small group of talanted individuals during our free time, while seeking for internship opportunities to further enhance my abilities and advance my personal career.
+        My name is Paulo Durbeck, and I am currently a Junior game designer with a Bachelor's in Games and Multimedia. I'm currently working on improving my portfolio by developing prototypes with a small group of talanted individuals during our free time, while seeking for internship opportunities to further enhance my abilities and advance my personal career.
         <br/><br/>
-        I've had many connections with the world of games before, though from different areas.
+        I've had many connections with the world of games before in various different fields, outside of game development.
         <br/>
-        I've organized some small tournaments and events before, as well as commentate on various different tournaments for a couple of fighting games, with the organizers "SaltyEU".
+        I've organized small tournaments and events before, as well as commentate on various different fighting game tournaments, with the organizers "SaltyEU".
         <br/>
-        I have also worked with Nintendo of Portugal, both officially and unofficially in order to organize tournaments or other smaller events.
+        I have also worked with Nintendo of Portugal, both officially and unofficially in order to organize larger tournaments and other smaller events.
         <br/>
         In the topic of eSports, I have also previously managed a Tekken 7 Competitive team for about a year, being both the team manager as well as the trainer for the players.
+        <br/>
+        In terms of technology, I work freelance in association with a store in my home town, repairing broken consoles.
         <br/><br/>
-        I possess skills in softwares such as Adobe Premiere, Audition, Xd, Photoshop, Maya, Blender, Unreal Engine 4/5, Unity, Excel, Miro and Trello as well as some other flowcharting tools.
+        I possess skills in softwares such as Adobe Premiere, Audition, Xd, Photoshop, Maya, Blender, Unreal Engine 4/5, Unity, Excel, Miro and Trello as well as some other flowcharting tools. 
         <br/>
         I've also created a fair ammount of Game design documents, and Rational Game Design Documents as well.
         </Description>
@@ -80,7 +82,7 @@ const FormContainer = styled.div`
   color: #182934;
 
   > img {
-    height: 150px;
+    height: 200px;
   }
 ` 
 
