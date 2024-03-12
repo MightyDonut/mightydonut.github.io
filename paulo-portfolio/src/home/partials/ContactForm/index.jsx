@@ -28,13 +28,10 @@ const ContactForm = () => {
         <br/><br/>
         I possess skills in softwares such as Adobe Premiere, Audition, Xd, Photoshop, Maya, Blender, Unreal Engine 4/5, Unity, Excel, Miro and Trello as well as some other flowcharting tools. 
         <br/>
-        I've also created a fair ammount of Game design documents, and Rational Game Design Documents as well.
+        I've also created a fair amount of Game design documents, and Rational Game Design Documents as well.
         </Description>
         <h2>CONTACT ME</h2>
-
-        <FormBottom>
-        
-        </FormBottom>
+        <a href="mailto:paulodurbeck.info@gmail.com">paulodurbeck.info@gmail.com</a>
       </FormContainer>
     </Container>
   )
@@ -84,6 +81,13 @@ const FormContainer = styled.div`
   > img {
     height: 200px;
   }
+
+  > a {
+    font-family: 'Raleway';
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #047BB0;
+  }
 ` 
 
 const Description = styled.span`
@@ -92,8 +96,4 @@ const Description = styled.span`
   letter-spacing: 0.08rem;
   max-width: 70%;
   text-align: left;
-`
-
-const FormBottom = styled.div`
-  display: flex;
 `

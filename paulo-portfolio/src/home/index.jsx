@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import { faLinkedinIn, faFacebookF, faInstagram, faGooglePlay } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedinIn, faFacebookF, faInstagram, faXTwitter } from '@fortawesome/free-brands-svg-icons';
 
 import SocialsIcon from './partials/SocialsIcon';
 import TechContainer from './partials/TechContainer';
@@ -15,10 +15,10 @@ const Home = () => {
     <Container>
       {/* TODO: put video in background */}
       <SocialsContainer>
-        <SocialsIcon href='http://likedit.com' style={{ width: '20px', height: '20px' }} icon={faLinkedinIn} />
-        <SocialsIcon href='http://facebum.com' style={{ width: '14px', height: '30px' }} icon={faFacebookF} />
-        <SocialsIcon href='http://instagrog.com' style={{ width: '20px', height: '20px' }} icon={faInstagram} />
-        <SocialsIcon href='http://gomgle.com' style={{ width: '18px', height: '18px' }} icon={faGooglePlay} />
+        <SocialsIcon href='https://www.linkedin.com/in/paulo-durbeck-4b3a591b9/' style={{ width: '20px', height: '20px' }} icon={faLinkedinIn} />
+        <SocialsIcon href='http://facebook.com' style={{ width: '14px', height: '30px' }} icon={faFacebookF} />
+        <SocialsIcon href='https://www.instagram.com/paulo_durbeck.official/' style={{ width: '20px', height: '20px' }} icon={faInstagram} />
+        <SocialsIcon href='https://twitter.com/P_Durbeck_inf' style={{ width: '18px', height: '18px' }} icon={faXTwitter} />
       </SocialsContainer>
 
       <NameTitle>Paulo Durbeck</NameTitle>
@@ -50,7 +50,7 @@ const SocialsContainer = styled.div`
   display: flex;
   justify-content: center;
   gap: 24px;
-  margin-top: 50vh;
+  margin-top: 45vh;
 `
 
 const NameTitle = styled.h1`
@@ -84,6 +84,6 @@ const ViewButton = styled.button`
   cursor: pointer;
   max-width: 400px;
 
-  margin-bottom: 300px;
+  margin-bottom: 30px;
 `
 

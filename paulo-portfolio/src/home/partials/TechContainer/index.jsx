@@ -129,7 +129,7 @@ export default TechContainer;
 
 const Container = styled.div`
   overflow-x: hidden;
-  height: 700px;
+  height: 600px;
 `
 
 const Title = styled.h2`

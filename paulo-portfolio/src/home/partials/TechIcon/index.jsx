@@ -9,7 +9,6 @@ const TechIcon = ({ alt, src, onClick }) => {
       <Hexagon><RoundedSquare /><RoundedSquare /><RoundedSquare /></Hexagon>
       <img src={src} alt={alt} />
     </Container>
-
   )
 }
 
@@ -31,6 +30,11 @@ const Container = styled.div`
     max-height: 70px;
     max-width: 70px;
     z-index: 2;
+    transition: box-shadow .3s;
+    
+    &:hover {
+      box-shadow: 0 0 40px white; 
+    }
   }
 `
 
@@ -46,6 +50,7 @@ const Hexagon = styled.div`
   :nth-child(3) {
     transform: rotate(-60deg); 
   }
+
 `
 
 const RoundedSquare = styled.div`
@@ -54,4 +59,5 @@ const RoundedSquare = styled.div`
   width: 63px;  
   height: 100px;
   border-radius: 10px; 
+
 `
