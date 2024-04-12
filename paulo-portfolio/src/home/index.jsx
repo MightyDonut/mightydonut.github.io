@@ -7,13 +7,18 @@ import SocialsIcon from './partials/SocialsIcon';
 import TechContainer from './partials/TechContainer';
 import Portfolio from './partials/Portfolio';
 import ContactForm from './partials/ContactForm';
+import PortfolioVideo from '../video/port2.mp4';
 
 const Home = () => {
   const portfolioRef = React.useRef(null);
 
   return (
+    <>
+    
+    <Video autoPlay playsInline muted loop>
+        <source src={PortfolioVideo} type="video/mp4"/>
+      </Video>
     <Container>
-      {/* TODO: put video in background */}
       <SocialsContainer>
         <SocialsIcon href='https://www.linkedin.com/in/paulo-durbeck-4b3a591b9/' style={{ width: '20px', height: '20px' }} icon={faLinkedinIn} />
         <SocialsIcon href='http://facebook.com' style={{ width: '14px', height: '30px' }} icon={faFacebookF} />
@@ -32,41 +37,59 @@ const Home = () => {
       <ContactForm />
 
     </Container>
+    </>
   )
 }
 
 export default Home;
 
+const Video = styled.video`
+  position: absolute;
+  bottom: 30%;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -100;
+`
+
 const Container = styled.div`
+  margin-top: 5%;
   height: auto;
   overflow-x: hidden;
 
   display: flex;
   flex-direction: column;
   align-items: center;
+
 `
 
 const SocialsContainer = styled.div`
+  width: 100%;
   display: flex;
   justify-content: center;
   gap: 24px;
+  padding: 24px 24px 60px 24px;
   margin-top: 45vh;
+  background-image: linear-gradient(transparent, #001B28, #001B28);
 `
 
 const NameTitle = styled.h1`
+  width: 100%;
   color: white;
   font-family: 'Raleway';
   text-transform: uppercase;
   font-size: 3.5rem;
   margin-bottom: 0;
-  margin-top: 50px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  background-color: #001B28;
 `
 
 const Subtitle = styled.h2`
   color: #047BB0;
   font-family: 'Raleway';
   font-size: 1.6rem;
-  margin-bottom: 100px;
+  margin-bottom: 70px;
   margin-top: 2px;
   font-weight: 200;
   letter-spacing: 8px;
@@ -84,6 +107,6 @@ const ViewButton = styled.button`
   cursor: pointer;
   max-width: 400px;
 
-  margin-bottom: 30px;
+  margin-bottom: 60px;
 `
 
