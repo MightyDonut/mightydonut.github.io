@@ -96,7 +96,7 @@ const TechContainer = () => {
       <Slider $isviewing={view !== null}>
         <Buttons>-
           <Title>Skills & Experience</Title>
-          <Subtitle>Paulo Durbeck</Subtitle>
+          <Subtitle>Paulo Dürbeck</Subtitle>
           <HexagonContainer>
             <TechIcon onClick={() => handleClick("Unreal")} src={UnrealS} alt="Unreal" />
             <TechIcon onClick={() => handleClick("Unity")} src={UnityS} alt="Unity" />

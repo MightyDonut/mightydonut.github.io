@@ -14,7 +14,7 @@ import ftw from '../../../images/ftw.png';
 const Portfolio = React.forwardRef((_, ref) => (
   <Container ref={ref}>
     <Title>Portfolio</Title>
-    <Subtitle>Paulo Durbeck</Subtitle>
+    <Subtitle>Paulo Dürbeck</Subtitle>
     <Grid>
       <PortfolioGridItem src={Hopeless}>
         <>

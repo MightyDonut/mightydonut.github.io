@@ -9,12 +9,12 @@ const ContactForm = () => {
   return (
     <Container>
       <Title>about & contact me</Title>
-      <Subtitle>Paulo Durbeck</Subtitle>
+      <Subtitle>Paulo Dürbeck</Subtitle>
 
       <FormContainer>
-        <img src={pfp} alt="Paulo Ian Durbeck" />
+        <img src={pfp} alt="Paulo Ian Dürbeck" />
         <Description>
-        My name is Paulo Durbeck, and I am currently a Junior game designer with a Bachelor's in Games and Multimedia. I'm currently working on improving my portfolio by developing prototypes with a small group of talanted individuals during our free time, while seeking for internship opportunities to further enhance my abilities and advance my personal career.
+        My name is Paulo Dürbeck, and I am currently a Junior game designer with a Bachelor's in Games and Multimedia. I'm currently working on improving my portfolio by developing prototypes with a small group of talanted individuals during our free time, while seeking for internship opportunities to further enhance my abilities and advance my personal career.
         <br/><br/>
         I've had many connections with the world of games before in various different fields, outside of game development.
         <br/>

@@ -18,10 +18,10 @@ const Home = () => {
         <SocialsIcon href='https://www.linkedin.com/in/paulo-durbeck-4b3a591b9/' style={{ width: '20px', height: '20px' }} icon={faLinkedinIn} />
         <SocialsIcon href='http://facebook.com' style={{ width: '14px', height: '30px' }} icon={faFacebookF} />
         <SocialsIcon href='https://www.instagram.com/paulo_durbeck.official/' style={{ width: '20px', height: '20px' }} icon={faInstagram} />
-        <SocialsIcon href='https://twitter.com/P_Durbeck_inf' style={{ width: '18px', height: '18px' }} icon={faXTwitter} />
+        <SocialsIcon href='https://twitter.com/P_Dürbeck_inf' style={{ width: '18px', height: '18px' }} icon={faXTwitter} />
       </SocialsContainer>
 
-      <NameTitle>Paulo Durbeck</NameTitle>
+      <NameTitle>Paulo Dürbeck</NameTitle>
       <Subtitle>Game Designer</Subtitle>
       <ViewButton onClick={() => portfolioRef.current?.scrollIntoView({ behavior: 'smooth' })}>View my portfolio</ViewButton>
 
