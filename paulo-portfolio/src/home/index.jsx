@@ -26,6 +26,7 @@ const Home = () => {
         <SocialsIcon href='https://twitter.com/P_Dürbeck_inf' style={{ width: '18px', height: '18px' }} icon={faXTwitter} />
       </SocialsContainer>
 
+      <RestContainer>
       <NameTitle>Paulo Dürbeck</NameTitle>
       <Subtitle>Game Designer</Subtitle>
       <ViewButton onClick={() => portfolioRef.current?.scrollIntoView({ behavior: 'smooth' })}>View my portfolio</ViewButton>
@@ -35,6 +36,7 @@ const Home = () => {
       <Portfolio ref={portfolioRef} />
 
       <ContactForm />
+      </RestContainer>
 
     </Container>
     </>
@@ -68,9 +70,19 @@ const SocialsContainer = styled.div`
   display: flex;
   justify-content: center;
   gap: 24px;
-  padding: 24px 24px 60px 24px;
+  padding: 24px 24px 3px 24px;
   margin-top: 45vh;
+  margin-bottom: -1px;
   background-image: linear-gradient(transparent, #001B28, #001B28);
+`
+
+const RestContainer = styled.div`
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #001B28;
+  padding-top: 60px;
 `
 
 const NameTitle = styled.h1`
